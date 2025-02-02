@@ -1,0 +1,26 @@
+{
+  "name": "@liqd-react/app-state",
+  "version": "0.0.1",
+  "description": "",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "dist/state.js",
+  "types": "dist/state.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "version": "rm -rf dist && tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqd-react/app-state.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
